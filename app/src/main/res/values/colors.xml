@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#1492e6</color>
+
+    <color name="accent">@color/colorAccent</color>
+    <color name="background">#f5f5f5</color>
+    <color name="backgroundAlt">#e0e0e0</color>
+    <color name="foreground">#666666</color>
+
+    <color name="designerBackground">#ffffff</color>
+    <color name="designerBorder">#cfcfcf</color>
+
+    <color name="iconButtonBackground">#00000000</color>
+    <color name="iconButtonForeground">@color/foreground</color>
+
+    <color name="toggleButtonForeground">@color/iconButtonForeground</color>
+    <color name="toggleButtonForegroundActive">@color/accent</color>
+</resources>

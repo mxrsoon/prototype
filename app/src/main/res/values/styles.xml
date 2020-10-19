@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="toggleButtonStyle">@style/Designer.ToggleButton</item>
+        <item name="toolButtonStyle">@style/Designer.ToolButton</item>
+        <item name="iconButtonStyle">@style/Designer.IconButton</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Designer.IconButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@color/iconButtonBackground</item>
+        <item name="android:foreground">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="android:tint">@color/iconButtonForeground</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <style name="Designer.ToggleButton" parent="Designer.IconButton">
+        <item name="android:tint">@color/togglebutton_tint</item>
+    </style>
+
+    <style name="Designer.ToolButton" parent="Designer.ToggleButton"></style>
+
+    <style name="Designer.ToolBar">
+        <item name="android:layout_width">@dimen/toolbar_width</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="Designer"></style>
+</resources>
